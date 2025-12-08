@@ -57,7 +57,7 @@ export function HeroSection(): React.JSX.Element {
   }
 
   return (
-    <section className="py-24 px-4 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-16 px-4 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto max-w-6xl text-center">
         {/* Main Heading */}
         <div className="mb-16">
@@ -90,7 +90,7 @@ export function HeroSection(): React.JSX.Element {
             {/* Experience Select */}
             <div>
               <Select value={formData.experience} onValueChange={handleExperienceChange}>
-                <SelectTrigger className="w-full h-14 border-2 py-6 border-gray-200 rounded-xl focus:border-gray-900 focus:ring-2 focus:ring-gray-900/20 text-gray-900 font-medium bg-white">
+                <SelectTrigger className="w-full h-14 py-6.5 border-2 border-gray-200 rounded-xl focus:border-gray-900 focus:ring-2 focus:ring-gray-900/20 text-gray-900 font-medium bg-white flex items-center justify-between">
                   <SelectValue placeholder="Experience Level" />
                 </SelectTrigger>
                 <SelectContent className="rounded-xl border-2 border-gray-200 shadow-xl bg-white">
